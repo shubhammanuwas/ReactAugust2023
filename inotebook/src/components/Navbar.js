@@ -5,10 +5,10 @@ import { useLocation } from 'react-router-dom';
 function Navbar() {
     let location = useLocation();
 
-    React.useEffect(() => {
-        // Google Analytics
-        console.log(location);
-    }, [location]);
+    // React.useEffect(() => {
+    //     // Google Analytics
+    //     console.log(location);
+    // }, [location]);
 
     return (
         <>
