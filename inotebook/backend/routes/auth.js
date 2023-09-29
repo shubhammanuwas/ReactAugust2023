@@ -89,6 +89,7 @@ router.post(
             };
 
             const jwtToken = jwt.sign(payload, JWT_SECRET);
+            
 
             res.status(201).json({ message: 'User logged in.', token: jwtToken });
         } catch (error) {
